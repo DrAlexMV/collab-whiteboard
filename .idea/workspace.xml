@@ -54,16 +54,16 @@
       <file leaf-file-name="classroom.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/classroom.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="12" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0">
+            <state line="7" column="12" selection-start="405" selection-end="405" vertical-scroll-proportion="-4.375">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="blackboard.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/blackboard.html">
+        <entry file="file://$PROJECT_DIR$/app/views/templates/blackboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="46" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
+            <state line="0" column="46" selection-start="46" selection-end="46" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -79,27 +79,27 @@
         </entry>
       </file>
       <file leaf-file-name="addNewBlackboardModal.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/addNewBlackboardModal.html">
+        <entry file="file://$PROJECT_DIR$/app/views/templates/addNewBlackboardModal.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="9" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
+            <state line="6" column="9" selection-start="271" selection-end="271" vertical-scroll-proportion="-3.75">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blackboard.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="blackboard.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/directives/blackboard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="22" selection-start="68" selection-end="68" vertical-scroll-proportion="0.042674255">
+            <state line="7" column="25" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="writing.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Temp/scripts/writing.js">
+      <file leaf-file-name="treeView.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/scripts/directives/treeView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="0" selection-start="1058" selection-end="1058" vertical-scroll-proportion="0.0">
+            <state line="5" column="25" selection-start="124" selection-end="124" vertical-scroll-proportion="0.10330579">
               <folding />
             </state>
           </provider>
@@ -115,9 +115,9 @@
         </entry>
       </file>
       <file leaf-file-name="treeView.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/treeView.html">
+        <entry file="file://$PROJECT_DIR$/app/views/templates/treeView.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="42" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
+            <state line="6" column="42" selection-start="219" selection-end="219" vertical-scroll-proportion="-3.75">
               <folding />
             </state>
           </provider>
@@ -138,7 +138,6 @@
         <option value="$PROJECT_DIR$/Temp/scripts/writing.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/templates/addNewBlackboardModal.html" />
-        <option value="$PROJECT_DIR$/app/scripts/directives/treeView.js" />
         <option value="$PROJECT_DIR$/app/bower_components/angular-bootstrap-nav-tree/abn_tree_directive.js" />
         <option value="$PROJECT_DIR$/app/templates/treeView.html" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/classroom.js" />
@@ -147,6 +146,7 @@
         <option value="$PROJECT_DIR$/app/views/classroom.html" />
         <option value="$PROJECT_DIR$/app/scripts/app.js" />
         <option value="$PROJECT_DIR$/app/scripts/directives/blackboard.js" />
+        <option value="$PROJECT_DIR$/app/scripts/directives/treeView.js" />
       </list>
     </option>
   </component>
@@ -274,6 +274,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -418,6 +422,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views" />
       <recent name="$PROJECT_DIR$/app/templates" />
       <recent name="$PROJECT_DIR$/app/bower_components/angular-bootstrap-nav-tree" />
     </key>
@@ -456,7 +461,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31122088" sideWeight="0.6710098" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14114326" sideWeight="0.6710098" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -541,7 +546,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/treeView.html">
+    <entry file="file://$PROJECT_DIR$/app/views/templates/treeView.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="42" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
           <folding />
@@ -550,7 +555,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Temp/handwritting.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="186" selection-end="186" vertical-scroll-proportion="0.25641027" />
+        <state line="12" column="0" selection-start="186" selection-end="186" vertical-scroll-proportion="0.25641027">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
@@ -558,7 +565,7 @@
         <state line="63" column="24" selection-start="3295" selection-end="3295" vertical-scroll-proportion="-23.458334" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/abn_tree_template.html">
+    <entry file="file://$PROJECT_DIR$/app/views/templates/abn_tree_template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
@@ -568,9 +575,18 @@
         <state line="23" column="6" selection-start="698" selection-end="698" vertical-scroll-proportion="0.38633817" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/directives/treeView.js">
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/classroom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="4" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0" />
+        <state line="18" column="0" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/templates/treeView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="42" selection-start="219" selection-end="219" vertical-scroll-proportion="-3.75">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/main.css">
@@ -580,23 +596,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/blackboard.html">
+    <entry file="file://$PROJECT_DIR$/Temp/scripts/writing.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="46" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/classroom.html">
+    <entry file="file://$PROJECT_DIR$/app/views/templates/addNewBlackboardModal.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="12" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/classroom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0">
+        <state line="6" column="9" selection-start="271" selection-end="271" vertical-scroll-proportion="-3.75">
           <folding />
         </state>
       </provider>
@@ -608,30 +617,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/addNewBlackboardModal.html">
+    <entry file="file://$PROJECT_DIR$/app/views/templates/blackboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="9" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
+        <state line="0" column="46" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/treeView.html">
+    <entry file="file://$PROJECT_DIR$/app/views/classroom.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="42" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/scripts/writing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1058" selection-end="1058" vertical-scroll-proportion="0.0">
+        <state line="7" column="12" selection-start="405" selection-end="405" vertical-scroll-proportion="-4.375">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/directives/blackboard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="22" selection-start="68" selection-end="68" vertical-scroll-proportion="0.042674255">
+        <state line="7" column="25" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/directives/treeView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="25" selection-start="124" selection-end="124" vertical-scroll-proportion="0.10330579">
           <folding />
         </state>
       </provider>

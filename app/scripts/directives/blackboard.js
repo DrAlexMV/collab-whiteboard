@@ -2,7 +2,7 @@
 angular.module('WhiteBoardApp')
   .directive('blackboard', function ($timeout, angularFire) {
     return {
-      templateUrl: "templates/blackboard.html",
+      templateUrl: "views/templates/blackboard.html",
       restrict: 'E',
       link: function postLink(scope, element, attrs) {
         // Initializes the blackboard
