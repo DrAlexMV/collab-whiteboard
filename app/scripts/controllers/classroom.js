@@ -12,7 +12,7 @@ angular.module('WhiteBoardApp')
         id: "addNewBlackboard",
         scope: $scope,
         headerText: "Add a new Blackboard.",
-        bodyTemplateURL: "templates/addNewBlackboardModal.html"
+        bodyTemplateURL: "views/addNewBlackboardModal.html"
       });
     };
   });

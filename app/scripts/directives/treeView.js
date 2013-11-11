@@ -3,7 +3,7 @@
 angular.module('WhiteBoardApp')
   .directive('treeview', function () {
     return {
-      templateUrl: "views/templates/treeView.html",
+      templateUrl: "views/treeView.html",
       scope: {
         data: "="
       },
