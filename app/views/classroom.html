@@ -1,0 +1,23 @@
+<div>
+    <nav id="classroom-toolbar" class="navbar navbar-default">
+        <ul class="nav navbar-nav">
+            <li><a ng-click="addNewBlackboardModal()"><i class="fa fa-file fa-2x"></i></a></li>
+            <li><a><i class="fa fa-folder-open fa-2x"></i></a></li>
+            <li><a><i class="fa fa-save fa-2x"></i></a></li>
+            <li><a><i class="fa fa-pencil fa-2x"></i></a></li>
+            <li><a><i class="fa fa-eraser fa-2x"></i></a></li>
+            <li><a ng-click="clearBlackboard()"><i class="fa fa-square-o fa-2x"></i></a></li>
+            <li><a><i class="fa fa-group fa-2x"></i></a></li>
+        </ul>
+        <ul class="nav navbar-nav pull-right">
+            <li><a><i class="fa fa-sign-out fa-2x"></i></a></li>
+        </ul>
+    </nav>
+    <div>
+        <p class="lead">Blackboard Name</p>
+        <blackboard></blackboard>
+    </div>
+    <div id="classroom-chat"></div>
+    <div id="connected-users"></div>
+</div>
+
