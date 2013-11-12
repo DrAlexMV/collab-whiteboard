@@ -80,6 +80,12 @@ angular.module('WhiteBoardApp')
           }, 100);
         };
         myIntervalFunction();
+
+        // Subscribe to clear canvas listener
+        scope.$on("clearBlackboard", function() {
+          stage.clear();
+          stage.update();
+        });
       }
     };
   });

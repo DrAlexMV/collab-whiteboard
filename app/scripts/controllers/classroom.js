@@ -14,6 +14,11 @@ angular.module('WhiteBoardApp')
         headerText: "Add a new Blackboard.",
         bodyTemplateURL: "views/addNewBlackboardModal.html"
       });
+
+      // Send a clear canvas event to the blackboard controller
+      $scope.clearBlackboard = function() {
+        $scope.$emit("clearBlackboard");
+      };
     };
   });
 

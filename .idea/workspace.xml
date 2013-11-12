@@ -10,10 +10,10 @@
     <file path="/classroom.html" changelist="524dddee-1fe5-4dbb-b972-d7ceb5527f67" time="1384079656366" ignored="false" />
     <file path="/blackboard.html" changelist="524dddee-1fe5-4dbb-b972-d7ceb5527f67" time="1384078818760" ignored="false" />
     <file path="/a.js" changelist="524dddee-1fe5-4dbb-b972-d7ceb5527f67" time="1383902213655" ignored="false" />
-    <file path="/blackboard.js" changelist="524dddee-1fe5-4dbb-b972-d7ceb5527f67" time="1384206662653" ignored="false" />
+    <file path="/blackboard.js" changelist="524dddee-1fe5-4dbb-b972-d7ceb5527f67" time="1384286709802" ignored="false" />
     <file path="/app.js" changelist="524dddee-1fe5-4dbb-b972-d7ceb5527f67" time="1384074177377" ignored="false" />
     <file path="/index.html" changelist="524dddee-1fe5-4dbb-b972-d7ceb5527f67" time="1384073179608" ignored="false" />
-    <file path="/classroom.js" changelist="524dddee-1fe5-4dbb-b972-d7ceb5527f67" time="1384074095666" ignored="false" />
+    <file path="/classroom.js" changelist="524dddee-1fe5-4dbb-b972-d7ceb5527f67" time="1384286836093" ignored="false" />
     <file path="/addNewBlackboardModal.html" changelist="524dddee-1fe5-4dbb-b972-d7ceb5527f67" time="1384073855438" ignored="false" />
     <file path="/treeView.js" changelist="524dddee-1fe5-4dbb-b972-d7ceb5527f67" time="1384073982603" ignored="false" />
     <file path="$PROJECT_DIR$/app/bower_components/angular-bootstrap-nav-tree/test/bs2_ng120_test_page.html" changelist="524dddee-1fe5-4dbb-b972-d7ceb5527f67" time="1384073058687" ignored="false" />
@@ -46,7 +46,7 @@
       <file leaf-file-name="classroom.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/classroom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="30" selection-start="460" selection-end="460" vertical-scroll-proportion="0.29871976">
+            <state line="19" column="0" selection-start="609" selection-end="609" vertical-scroll-proportion="0.4054054">
               <folding />
             </state>
           </provider>
@@ -55,7 +55,7 @@
       <file leaf-file-name="classroom.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/classroom.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="12" selection-start="405" selection-end="405" vertical-scroll-proportion="-4.375">
+            <state line="8" column="34" selection-start="490" selection-end="490" vertical-scroll-proportion="-5.0">
               <folding />
             </state>
           </provider>
@@ -64,7 +64,7 @@
       <file leaf-file-name="blackboard.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/blackboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="46" selection-start="46" selection-end="46" vertical-scroll-proportion="-0.0">
+            <state line="0" column="46" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -82,7 +82,7 @@
       <file leaf-file-name="addNewBlackboardModal.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/addNewBlackboardModal.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="9" selection-start="271" selection-end="271" vertical-scroll-proportion="-3.75">
+            <state line="6" column="9" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -91,7 +91,7 @@
       <file leaf-file-name="blackboard.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/directives/blackboard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="26" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
+            <state line="84" column="33" selection-start="2935" selection-end="2935" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -127,7 +127,7 @@
       <file leaf-file-name="treeView.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/treeView.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="42" selection-start="219" selection-end="219" vertical-scroll-proportion="-3.75">
+            <state line="6" column="42" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -405,8 +405,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Deque/DequeClient/app/scripts/controllers/StagingArea.js" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -449,7 +449,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33521524" sideWeight="0.6710098" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23570925" sideWeight="0.6710098" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -536,9 +536,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Temp/handwritting.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="186" selection-end="186" vertical-scroll-proportion="0.25641027">
-          <folding />
-        </state>
+        <state line="12" column="0" selection-start="186" selection-end="186" vertical-scroll-proportion="0.25641027" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
@@ -558,7 +556,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/treeView.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="42" selection-start="219" selection-end="219" vertical-scroll-proportion="-3.75">
+        <state line="6" column="42" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -572,14 +570,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Temp/scripts/writing.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/addNewBlackboardModal.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="9" selection-start="271" selection-end="271" vertical-scroll-proportion="-3.75">
+        <state line="6" column="9" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -598,23 +594,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/classroom.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="12" selection-start="405" selection-end="405" vertical-scroll-proportion="-4.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/directives/treeView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="26" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/directives/blackboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="26" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -626,9 +608,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/directives/blackboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="33" selection-start="2935" selection-end="2935" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/classroom.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="34" selection-start="490" selection-end="490" vertical-scroll-proportion="-5.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/classroom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="30" selection-start="460" selection-end="460" vertical-scroll-proportion="0.29871976">
+        <state line="19" column="0" selection-start="609" selection-end="609" vertical-scroll-proportion="0.4054054">
           <folding />
         </state>
       </provider>
