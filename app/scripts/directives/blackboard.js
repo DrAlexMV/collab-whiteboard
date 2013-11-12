@@ -16,7 +16,12 @@ angular.module('WhiteBoardApp')
         var stage = new createjs.Stage(canvas);
         stage.autoClear = false;
         stage.enableDOMEvents(true);
+        // Enable touch for touch devices
+        createjs.Touch.enable(stage);
+        // Create a drawing canvas
         var drawingCanvas = new createjs.Shape();
+        // Create a clear canvas png to clear canvas later
+        var clearCanvas = canvas.toDataURL();
 
         // Create a connection to a Firebase
         var baseUrl = "https://classnote.firebaseio.com/";
@@ -76,15 +81,16 @@ angular.module('WhiteBoardApp')
             imageData.onload = function() {
               context.drawImage(imageData, 0, 0);
             };
-            cancelRefresh = $timeout(myFunction, 20);
+            cancelRefresh = $timeout(myFunction, 100);
           }, 100);
         };
         myIntervalFunction();
 
         // Subscribe to clear canvas listener
         scope.$on("clearBlackboard", function() {
-          stage.clear();
-          stage.update();
+          canvas.getContext("2d")
+            .clearRect(0, 0, canvas.width, canvas.height);
+          scope.pngCode = canvas.toDataURL();
         });
       }
     };
