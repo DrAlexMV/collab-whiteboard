@@ -71,7 +71,7 @@ angular.module('WhiteBoardApp')
         stage.addChild(drawingCanvas);
         stage.update();
 
-        // Redraw canvas every 20ms
+        // Redraw canvas every 100ms
         var myIntervalFunction = function() {
           var cancelRefresh = $timeout(function myFunction() {
             var png = scope.pngCode;
@@ -88,9 +88,8 @@ angular.module('WhiteBoardApp')
 
         // Subscribe to clear canvas listener
         scope.$on("clearBlackboard", function() {
-          canvas.getContext("2d")
-            .clearRect(0, 0, canvas.width, canvas.height);
-          scope.pngCode = canvas.toDataURL();
+          stage.clear();
+          scope.pngCode = clearCanvas;
         });
       }
     };
