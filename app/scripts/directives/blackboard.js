@@ -21,6 +21,7 @@ angular.module('WhiteBoardApp')
         // Create a drawing canvas
         var drawingCanvas = new createjs.Shape();
         // Create a clear canvas png to clear canvas later
+        stage.clear();
         scope.clearCanvas = stage.toDataURL();
 
         // Create a connection to a Firebase
@@ -72,23 +73,28 @@ angular.module('WhiteBoardApp')
         stage.update();
 
         var redrawCanvas = function(png) {
-          var context = canvas.getContext("2d");
-          var imageData = new Image();
-          imageData.src = png;
-          imageData.onload = function() {
-            context.drawImage(imageData, 0, 0);
-          };
+          if (png) {
+            console.log("drawing");
+            var context = canvas.getContext("2d");
+            var imageData = new Image();
+            imageData.src = png;
+            imageData.onload = function() {
+              context.drawImage(imageData, 0, 0);
+            }
+          } else {
+            stage.clear();
+            scope.pngCode = stage.toDataURL();
+          }
         };
 
-        scope.$watch("pngCode", function() {
-          redrawCanvas(scope.pngCode);
-        });
+        // Redraw the canvas every 500ms
+        setInterval(function() {
+         redrawCanvas(scope.pngCode);
+        }, 500);
 
         // Subscribe to clear canvas listener
         scope.$on("clearBlackboard", function() {
-          console.log("Clearing");
-          stage.clear();
-          scope.pngCode = stage.toDataURL();
+          scope.pngCode = false;
         });
       }
     };
