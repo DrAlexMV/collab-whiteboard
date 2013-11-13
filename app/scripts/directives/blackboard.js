@@ -21,13 +21,13 @@ angular.module('WhiteBoardApp')
         // Create a drawing canvas
         var drawingCanvas = new createjs.Shape();
         // Create a clear canvas png to clear canvas later
-        var clearCanvas = canvas.toDataURL();
+        scope.clearCanvas = stage.toDataURL();
 
         // Create a connection to a Firebase
         var baseUrl = "https://classnote.firebaseio.com/";
 
         // Create a binding to generate canvas update
-        scope.pngCode = null;
+        scope.pngCode;
         angularFire(new Firebase(baseUrl + "test/"), scope, "pngCode");
 
         // Point variables
@@ -53,7 +53,7 @@ angular.module('WhiteBoardApp')
         var handleMouseUp = function() {
           stage.removeEventListener("stagemousemove", handleMouseMove);
           scope.$apply(function() {
-            scope.pngCode = canvas.toDataURL();
+            scope.pngCode = stage.toDataURL();
           });
         };
 
@@ -71,25 +71,24 @@ angular.module('WhiteBoardApp')
         stage.addChild(drawingCanvas);
         stage.update();
 
-        // Redraw canvas every 100ms
-        var myIntervalFunction = function() {
-          var cancelRefresh = $timeout(function myFunction() {
-            var png = scope.pngCode;
-            var context = canvas.getContext("2d");
-            var imageData = new Image();
-            imageData.src = png;
-            imageData.onload = function() {
-              context.drawImage(imageData, 0, 0);
-            };
-            cancelRefresh = $timeout(myFunction, 100);
-          }, 100);
+        var redrawCanvas = function(png) {
+          var context = canvas.getContext("2d");
+          var imageData = new Image();
+          imageData.src = png;
+          imageData.onload = function() {
+            context.drawImage(imageData, 0, 0);
+          };
         };
-        myIntervalFunction();
+
+        scope.$watch("pngCode", function() {
+          redrawCanvas(scope.pngCode);
+        });
 
         // Subscribe to clear canvas listener
         scope.$on("clearBlackboard", function() {
+          console.log("Clearing");
           stage.clear();
-          scope.pngCode = clearCanvas;
+          scope.pngCode = stage.toDataURL();
         });
       }
     };

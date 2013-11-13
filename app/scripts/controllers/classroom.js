@@ -19,7 +19,6 @@ angular.module('WhiteBoardApp')
 
     // Send a clear canvas event to the blackboard controller
     $scope.clearBlackboard = function() {
-      console.log("clearingCanvas");
       $scope.$emit("clearBlackboard");
     };
   });

@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('WhiteBoardApp', ['firebase', 'ngRoute', 'ngEkathuwa', 'angularBootstrapNavTree'])
+angular.module('WhiteBoardApp', ['firebase', 'ngRoute', 'ngEkathuwa', 'angularBootstrapNavTree', '$strap.directives'])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
